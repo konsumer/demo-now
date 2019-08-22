@@ -3,7 +3,11 @@
   "public": false,
   "name": "demo-now",
   "builds": [
-    { "src": "app1/package.json", "use": "@now/next" },
-    { "src": "app2/package.json", "use": "@now/next" }
+    { "src": "app1/next.config.js", "use": "@now/next" },
+    { "src": "app2/next.config.js", "use": "@now/next" }
+  ],
+  "routes": [
+    { "src": "/app1/assets/_next/(.+)", "dest": "/app1/_next/$1" },
+    { "src": "/app2/assets/_next/(.+)", "dest": "/app2/_next/$1" }
   ]
 }

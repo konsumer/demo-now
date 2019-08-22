@@ -2,7 +2,7 @@ node_modules
 *.log
 .DS_Store
 package-lock.json
-yark.lock
+yarn.lock
 .env
 .env.build
 .next
