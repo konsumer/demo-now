@@ -1,0 +1,10 @@
+{
+  "name": "demo-now",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "now dev"
+  },
+  "devDependencies": {
+    "now": "^16.1.2"
+  }
+}

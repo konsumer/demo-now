@@ -1,0 +1,1 @@
+export default () => (<div>App 2 Test</div>)

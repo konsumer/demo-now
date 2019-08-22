@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "public": false,
+  "name": "demo-now",
+  "builds": [
+    { "src": "app1/package.json", "use": "@now/next" },
+    { "src": "app2/package.json", "use": "@now/next" }
+  ]
+}
